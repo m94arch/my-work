@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Cairo", sans-serif;
+  background-color: rgba(255, 246, 245, 0.49);
+}
+
+
+.mainn {
+  display: flex;
+  flex-direction: column;
+  margin: 15% 35%;
+  row-gap: 20px;
+  width: 40%;
+  padding: 2% 3%;
+
+
+margin-top: 10%;
+  margin-left: 20px;
+  flex: 1.5;
+
+ 
+
+}
+
+.mainn > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainn > div:nth-child(1) > span {
+  font-size: 30px;
+  color: #1d968d;
+}
+
+.mainn > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  
+}
+
+.mainn > div:nth-child(2) > label {
+  font-size: 18px;
+  color: #000;
+  font-weight: 600;
+}
+
+.input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  outline: none;
+  border: 0.5px solid #b4b6c4;
+  box-shadow: 0px 1px 1px rgba(212, 206, 206, 0.8);
+  margin-bottom: 10%;
+  font-size: 16px;
+}
+
+.btn4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.btn4 > button {
+  flex: 1;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn4 > button:last-of-type {
+  background-color: #1d968d;
+  color: white;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 280px) and (max-width: 1280px) {
+  .main {
+    width: 90%;
+    margin: 50% 5%;
+  }
+}

@@ -1,0 +1,288 @@
+
+body{
+    margin: 0px;
+    font-family: 'Exo 2', sans-serif;
+font-family: 'Lato', sans-serif;
+
+}
+
+.wrapp-contant{
+    width: 90%;
+    margin: 90px auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+#section-top{
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+}
+img{
+    width: 770px;
+    height:500px ;
+   
+    flex: 1;
+}
+article{
+    font-size: 50px;
+    flex: 1;
+}
+article>span{
+    font-size: .8em;
+    font-weight: bold;
+    color: #6776AF;
+}
+section>article>p{
+    font-size: .45em;
+    color: #ACACAC;
+    font-weight: 300px;
+    line-height: 33px;
+    margin: 6px 0px 55px 0px;
+   
+}
+<!--form-->
+
+section>form{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+.form-form{
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+    margin-bottom: 35px;
+}
+
+
+
+
+.form-top{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    
+    flex: 1;
+}
+.form-top>label{
+    font-size: .4em;
+    color: #4A4A4A;
+}
+.form-top>input{
+    height: 50px;
+    border-radius:5px ;
+    border-width: .5px;
+    border-color: #707070;
+    border-style: solid;
+    font-size: .4em;
+    padding-left: 10px;
+    
+    
+}
+.form-top>input:focus{
+
+outline-color: royalblue; 
+outline-width: .5px;
+border-color: transparent;
+   border-radius: 10px;
+    
+}
+
+form>.save>button{
+    background-color: #273685;
+    border-radius: 27px;
+    height: 52px;
+    width: 200px;
+    color: #FFFFFF;
+    font-size: .4em;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .08);
+    padding: 0px 65px;
+    font-weight: 300;    
+}
+
+.save{
+    display: flex;
+    
+    justify-content: right;
+    margin-top: 5%;
+    margin-bottom: 7%;
+
+}
+
+table{
+    width: 100%;
+    font-size: 25px;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 15px rgba(117, 123, 234, 0.164);
+    
+}
+table>thead{
+    color: #273685;
+    border-bottom: 1px solid #6776AF;
+    
+    font-size: 1em;
+   padding: 14px 0px;
+  
+    
+    
+}
+
+
+table>thead>tr>th{
+    width: 25%;
+    height: 50px;
+    
+
+}
+table>thead>tr>th:first-child{
+    text-align: left;
+    
+}
+
+table>tbody>tr>td:first-child{
+    text-align: start;
+    
+}
+table>tbody>tr>td{
+    width: 25%;
+    height: 50px;
+    border-bottom: .2px solid #D8D8D8;
+    
+
+}
+
+td{
+    color: #4A4A4A;
+    font-size: .6em;
+    text-align: center;
+    height:80px ;
+
+}
+@media only screen and ( max-width:914px){
+    img{
+        width:100%;
+    }
+    #section-top{
+        display: flex;
+        flex-direction: column;
+        column-gap: 16px;
+    }
+    .save{
+        display: flex;
+        
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 7%;
+    
+    }
+ 
+}
+@media only screen and ( max-width:412px){
+    img{
+        width:100%;
+    }
+    article>span{
+        font-size: .5em;
+        font-weight: bold;
+        color: #6776AF;
+    }
+    section>article>p{
+        font-size: .3em;
+        color: #ACACAC;
+        font-weight: 300px;
+        line-height: 33px;
+        margin: 6px 0px 55px 0px;
+       
+    }
+    section>form{
+        display: flex;
+        flex-direction: row;
+        
+        
+        
+    }
+    .form-form{
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        margin-bottom: 35px;
+    }
+    form>.save>button{
+        background-color: #d51e1e;
+        border-radius: 20px;
+        height: 40px;
+        width: 100px;
+        color: #FFFFFF;
+        font-size: .3em;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, .08);
+        padding-right: 45%;
+        font-weight: 300;
+        text-align: center;
+         
+    }
+    
+    .save{
+        display: flex;
+        
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 7%;
+    
+    }
+   
+ 
+}
+@media only screen and ( max-width:360px){
+    table{
+        width: 100%;
+        font-size: 20px;
+        border-collapse: collapse;
+        box-shadow: 0px 0px 15px rgba(117, 123, 234, 0.164);
+        
+    }
+    table>thead{
+        color: #273685;
+        border-bottom: 1px solid #6776AF;
+        
+        font-size: .7em;
+       padding: 14px 0px;
+      
+        
+        
+    }
+    
+    
+    table>thead>tr>th{
+        width: 25%;
+        height: 50px;
+        
+    
+    }
+    table>thead>tr>th:first-child{
+        text-align: left;
+        
+    }
+    
+    table>tbody>tr>td:first-child{
+        text-align: start;
+        
+    }
+    table>tbody>tr>td{
+        width: 25%;
+        height: 50px;
+        border-bottom: .2px solid #D8D8D8;
+        
+    
+    }
+    
+    td{
+        color: #4A4A4A;
+        font-size: .6em;
+        justify-content: space-between;
+        height:80px ;
+
+}
+}

@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Cairo", sans-serif;
+}
+
+.main-section {
+  display: flex;
+  flex: 4;
+}
+
+.main-section > .sidebar {
+  flex: 4;
+  height: auto;
+  background-color: #eee;;
+}
+
+.main-section > .main-content {
+  flex: 3;
+  height: auto;
+  background-color: #eee;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-top: 20px;
+}
+
+.list > div > a {
+  text-decoration: none;
+}
+
+.notification {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  margin-left: 50px;
+}
+
+.main-section > .sidebar > div > h2 {
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  padding-left: 75px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.signin {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  margin-top: 50%;
+  padding-left: 40px;
+}
+
+.admin-tools {
+  color: #b2b3bd;
+  padding-left: 75px;
+}
+
+.insights {
+  color: #b2b3bd;
+  padding-left: 75px;
+}
+
+.blogs {
+  color: #1d968d;
+}
+
+.list > .list-item  {
+  padding-left: 75px;
+}
+
+.list > div:nth-child(3) {
+  
+  width: 80%;
+  padding-left: 40px;
+  border-radius: 10px;
+  margin-left: 35px;
+  height: 50px;
+}
+
+.list > div:nth-child(3) .active{
+  color: #051357;
+  font-weight: bold;
+}
+
+.list > div:nth-child(3) > a {
+  color: #808191;
+}
+
+.list > div:nth-child(3) > i {
+  color: #808191;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.list-item:nth-child(4) {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 12px;
+}
+
+.list-item > a {
+  color: #808191;
+  font-size: 10px;
+}
+
+i {
+  color: #808191;
+}
+
+.main-content > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 1% 5%;
+}
+
+.info {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.info > .username {
+  color: #1d968d;
+}
+
+.main-content > div > input {
+  width: 250px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: white;
+  padding: 15px;
+}
+
+.all-categories {
+  margin: 1% 5%;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.icon {
+  color: red;
+  background-color: white;
+}
+
+select {
+  font-size: 14px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.categories-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin: 5% 5%;
+  border: 1px solid #e2e2ea;
+  padding: 2% 2%;
+  border-radius: 20px;
+  background-color: white;
+  width: 80%;
+}
+
+.categories-section > .category-item-row {
+  display: flex;
+  column-gap: 30px;
+  flex-wrap: wrap;
+}
+
+.categories-section > .category-item-row > .category-item {
+  border: 1px solid #e2e2ea;
+  outline: none;
+  width: 23%;
+  border-radius: 20px;
+  padding: 1% 0px;
+  background-color: #eee;
+  margin-bottom: 10px;
+}
+
+.categories-section > .category-item-row > .category-item > div {
+  display: flex;
+  justify-content: center;
+  column-gap: 100px;
+}
+
+.categories-section> .category-item-row > .category-item> div> div:first-of-type {
+  display: flex;
+  flex-direction: column;
+}
+
+.design {
+  font-size: 15px;
+  color: #1d968d;
+  font-weight: 200;
+  margin-left: 5px;
+
+}
+
+.development {
+  font-size: 15px;
+  color: #ff974a;
+  font-weight: 200;
+  margin-left: 5px;
+}
+.delete-icon{
+  margin-right: 5px;
+}
+.medical {
+  font-size: 15px;
+  color: #0079bf;
+  font-weight: 200;
+  margin-left: 5px;
+  
+}
+
+.motion {
+  font-size: 15px;
+  color: #783dbd;
+  font-weight: 200;
+  margin-left: 5px;
+}
+
+.blog-no {
+  font-size: 16px;
+  margin-left: 15px;
+  
+}
+
+.checked {
+  color: #6f6f6f;
+  margin-left: 15px;
+
+}
+
+.categories-section > .category-item-row > .create-category-item {
+  background-color: white;
+}
+
+.categories-section > .category-item-row > .category-item > span {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  padding-top: 12%;
+  
+}
+
+.categories-section > .category-item-row > .category-item > span > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.categories-section > .category-item-row > .category-item > span > a > i {
+  color: #000;
+}

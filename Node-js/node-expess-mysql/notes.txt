@@ -1,0 +1,13 @@
+Database Server:
+    - Local Server
+        - Wamp: W => Windows
+        - Mamp: M => Mac
+        - Xamp: X => Linux
+
+        - amp:
+            - a => Appache
+            - m => MySQL/Maria
+            - p => PHP
+        
+    - Standalone database server
+        - MySQL Community Server
