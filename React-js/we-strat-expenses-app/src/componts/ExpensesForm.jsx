@@ -57,10 +57,6 @@ let clear =()=>{
 }
 
 
-let OnDeleteExpenses=(id)=>{
-    alert(id);
-
-}
 
     return(
         <form onSubmit={ onSubmitHandler}>

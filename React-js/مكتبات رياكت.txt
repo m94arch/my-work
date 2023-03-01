@@ -1,0 +1,9 @@
+npm install react-bootstrap تحميل مكتبة البوستراب
+
+npm install react-router-dom@latest تحميل مكتبات الراوتر 6
+
+npm install react redux  تحميل مكتبة رياكت ريدكس
+
+npm install @reduxjs/toolkit تحميل ملفات وادوات  لرياكت ريدكس 
+
+

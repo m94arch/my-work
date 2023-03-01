@@ -17,7 +17,7 @@ return(
 <tbody> 
 {props.expenses.map((element) =>(
 
-<ExpensesRow  key ={element.id } expense={element}    OnDeleteExpense={props.OnDeleteExpense}/>
+<ExpensesRow  key ={element.id } expensse={element}    OnDeleteExpense={props.OnDeleteExpense}/>
 ))}
 
 
